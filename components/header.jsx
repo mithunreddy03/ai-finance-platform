@@ -15,9 +15,9 @@ const Header = async () => {
         <Link href="/">
           <Image
             src={"/logo.png"}
-            alt="Welth Logo"
-            width={200}
-            height={60}
+            alt="FinTrack Logo"
+            width={400}
+            height={120}
             className="h-12 w-auto object-contain"
           />
         </Link>
@@ -42,7 +42,7 @@ const Header = async () => {
           <SignedIn>
             <Link
               href="/dashboard"
-              className="text-gray-600 hover:text-blue-600 flex items-center gap-2"
+              className="text-black hover:text-black flex items-center gap-2"
             >
               <Button variant="outline">
                 <LayoutDashboard size={18} />
